@@ -2,6 +2,7 @@ int ntohs_fn(u_short);
 
 #define ETHERNET_LEN 6
 // Headers structures
+
 struct ethernet_header
 {
 	u_char ether_dhost[ETHERNET_LEN];
